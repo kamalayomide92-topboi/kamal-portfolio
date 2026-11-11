@@ -1,0 +1,134 @@
+.skills-section {
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+
+.skills-heading {
+  max-width: 700px;
+  margin-bottom: 60px;
+}
+
+.skills-heading h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(38px, 6vw, 68px);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -3px;
+  color: #f5f5f5;
+}
+
+.skills-heading h2 span {
+  color: #777;
+}
+
+.skills-intro {
+  max-width: 480px;
+  margin-top: 25px;
+  color: #888;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.skill-card {
+  min-height: 235px;
+  padding: 28px;
+  background: #111;
+  border: 1px solid #252525;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.skill-card:hover {
+  border-color: #c5ff4a;
+  transform: translateY(-5px);
+}
+
+.skill-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-number {
+  color: #666;
+  font-size: 12px;
+}
+
+.skill-category {
+  color: #999;
+  font-size: 11px;
+  border: 1px solid #333;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+.skill-card h3 {
+  margin-top: 35px;
+  color: #f5f5f5;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.skill-card p {
+  margin-top: 10px;
+  color: #888;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.skill-card-bottom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 25px;
+  color: #999;
+  font-size: 11px;
+}
+
+.skill-status-dot {
+  width: 7px;
+  height: 7px;
+  background: #c5ff4a;
+  border-radius: 50%;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .skills-section {
+    padding-top: 75px;
+    padding-bottom: 90px;
+  }
+
+  .skills-heading {
+    margin-bottom: 40px;
+  }
+
+  .skills-heading h2 {
+    letter-spacing: -1.5px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    min-height: 210px;
+  }
+}
