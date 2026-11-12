@@ -1,16 +1,51 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Kamal — Developer Portfolio
 
-Currently, two official plugins are available:
+My personal developer portfolio, built with React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+I'm Kamal, an aspiring software developer from Nigeria interested in building useful digital products and solving real-world problems.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the ESLint configuration
+- HTML
+- CSS
+- JavaScript
+- React
+- Vite
+- Python
+- Django
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Featured Projects
+
+- **FeeFlow** — School payment management platform.
+- **First Signal** — News discovery platform for content creators.
+- **HexagonTechHub** — Web learning platform.
+
+## Contact
+
+- GitHub: https://github.com/kamalayomide92-topboi
+- Email: kamalayomide92@gmail.com
+- Phone: +2349160897654
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
